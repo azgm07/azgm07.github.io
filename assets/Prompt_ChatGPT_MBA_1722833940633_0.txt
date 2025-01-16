@@ -1,0 +1,187 @@
+Tenho uma série de 10 questões de multipla escolha contendo quarto opções de resposta que gostaria de formatar em arquivo markdown. Primeiramente vou te dar um texto completo contendo as 10 questões não formatadas e depois o exemplo de como deve formatar as questões em arquivo markdown. Após essa interação irei te passar o texto real da série de 10 questões de multipla escolha contendo quarto opções de resposta que gostaria que formatasse da mesma forma para mim.
+
+Texto 10 Questões não formatadas:
+Questão #1
+Considere as assertivas sobre dados estruturados e não estruturados:
+(   ) Dados não estruturados, como textos e imagens, geralmente são mais fáceis de processar.
+(   ) Dados estruturados normalmente são mais simples e menos custosos para trabalhar.
+(   ) Dados estruturados são organizados em formatos pré-definidos, como tabelas de banco de dados.
+
+V, F, V.
+V, V, F.
+F, F, F.
+F, V, V.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #2
+Sobre o uso de inteligência artificial em negócios, julgue as afirmações:
+I- IA é sempre o núcleo dos negócios em empresas que criam tecnologia.
+II- A inteligência artificial pode ser vista como uma ferramenta nos mais variados setores.
+III- Todas as empresas precisam ter competências de IA ao mesmo nível que Google ou OpenAI.
+
+Apenas as sentenças I e III são verdadeiras.
+Apenas as sentenças I e II são verdadeiras.
+Todas as sentenças são verdadeiras.
+Apenas a sentença II é verdadeira.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #3
+Em relação ao Big Data, qual V descreve a confiança na precisão dos dados?
+
+Variedade
+Veracidade
+Velocidade
+Valor
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #4
+Quais são as principais preocupações éticas relacionadas ao uso de modelos generativos de IA como o Chat GPT e como devem ser abordadas na prática?
+
+Tendência dos modelos a "alucinar", criando respostas baseadas em dados não verificados, necessitando de avaliação humana crítica.
+Estes modelos possuem uma alta taxa de erro intencional, que deve ser supervisioanda através de regulamentação externa.
+A possibilidade de dessensibilização humana frente à tecnologia, o que deve ser gerenciado com políticas de uso responsável.
+A necessidade de consentimento explícito de todos os indivíduos representados nos dados do modelo, que é impraticável.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #5
+Considerando a ética em relação ao uso de inteligência artificial, avalie as sugestões abaixo:
+I- A IA é naturalmente imparcial e justa em suas conclusões e previsões.
+II- A seleção e tratamento de dados pode criar viés nos resultados gerados por modelos de IA.
+III- O responsável pela criação do modelo de IA é também responsável por sua justiça e imparcialidade.
+
+Todas as sentenças são falsas.
+Apenas as sentenças I e II são verdadeiras.
+Apenas as sentenças II e III são verdadeiras.
+Todas as sentenças são verdadeiras.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #6
+Qual é a principal diferença entre dados estruturados e dados não estruturados?
+
+Dados não estruturados são gerados exclusivamente por máquinas.
+Dados estruturados são mais rápidos de processar que os não estruturados.
+Dados não estruturados são sempre textuais, enquanto os estruturados são numéricos.
+Dados estruturados referem-se àqueles organizados em formato tabular.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #7
+Na aula, foi discutida a importância da veracidade dos dados em Big Data. Como a falta de dados íntegros e confiáveis pode afetar um modelo de inteligência artificial?
+
+Não afeta o modelo, pois a inteligência artificial pode corrigir esses dados.
+Pode melhorar a velocidade de processamento do modelo, sendo benéfico.
+Aumenta a criatividade do modelo ao lidar com dados imprecisos.
+Pode causar erros e previsões imprecisas, prejudicando a tomada de decisão.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #8
+Sobre o papel da tecnologia nos negócios, avalie as afirmações abaixo:
+(   ) Tecnologias como Big Data e AI podem reduzir custos operacionais e impulsionar receitas.
+(   ) A inovação tecnológica deve ser vista como passageira e não leva a benefícios profundos.
+(   ) Investir em tecnologia é essencial apenas para startups e não para empresas estabelecidas.
+
+V, V, F.
+F, F, V.
+F, V, V.
+V, F, F.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #9
+No âmbito do processamento de dados e desenvolvimento de sistemas, o que significa a sigla API?
+
+Application Programming Interface.
+Aplicação de Programas integrados.
+Advanced Programming Instruction.
+Analysis Process Integration.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+   Questão #10
+Considerando o desenvolvimento de aplicações com inteligência artificial, avalie as proposições a seguir:
+I- Big Data e IA são conceitos idênticos e intercambiáveis.
+II- A criação de modelos preditivos é uma aplicação prática da IA.
+III- APIs podem ser utilizadas para consumo de serviços de IA em nuvem.
+
+Apenas as sentenças II e III são verdadeiras.
+Todas as sentenças são verdadeiras.
+Apenas as sentenças I e III são verdadeiras.
+Apenas as sentenças I e II são verdadeiras.
+
+Gustavo - azgm07@gmail.comGustavo - azgm07@gmail.com
+
+Exemplo de como deve formatar as questões em arquivo markdown:
+```markdown
+- Considere as assertivas sobre dados estruturados e não estruturados: #card
+    (   ) Dados não estruturados, como textos e imagens, geralmente são mais fáceis de processar.
+    (   ) Dados estruturados normalmente são mais simples e menos custosos para trabalhar.
+    (   ) Dados estruturados são organizados em formatos pré-definidos, como tabelas de banco de dados.
+    + [ ] V, F, V.
+    + [ ] V, V, F.
+    + [ ] F, F, F.
+    + [ ] F, V, V.
+    - Resposta Correta: F, V, V.
+- Sobre o uso de inteligência artificial em negócios, julgue as afirmações: #card
+    I- IA é sempre o núcleo dos negócios em empresas que criam tecnologia.
+    II- A inteligência artificial pode ser vista como uma ferramenta nos mais variados setores.
+    III- Todas as empresas precisam ter competências de IA ao mesmo nível que Google ou OpenAI.
+    + [ ] Apenas as sentenças I e III são verdadeiras.
+    + [ ] Apenas as sentenças I e II são verdadeiras.
+    + [ ] Todas as sentenças são verdadeiras.
+    + [ ] Apenas a sentença II é verdadeira.
+    - Resposta Correta: Apenas a sentença II é verdadeira.
+- Em relação ao Big Data, qual V descreve a confiança na precisão dos dados? #card
+    + [ ] Variedade
+    + [ ] Veracidade
+    + [ ] Velocidade
+    + [ ] Valor
+    - Resposta Correta: Veracidade
+- Quais são as principais preocupações éticas relacionadas ao uso de modelos generativos de IA como o Chat GPT e como devem ser abordadas na prática? #card
+    + [ ] Tendência dos modelos a "alucinar", criando respostas baseadas em dados não verificados, necessitando de avaliação humana crítica.
+    + [ ] Estes modelos possuem uma alta taxa de erro intencional, que deve ser supervisioanda através de regulamentação externa.
+    + [ ] A possibilidade de dessensibilização humana frente à tecnologia, o que deve ser gerenciado com políticas de uso responsável.
+    + [ ] A necessidade de consentimento explícito de todos os indivíduos representados nos dados do modelo, que é impraticável.
+    - Resposta Correta: Tendência dos modelos a "alucinar", criando respostas baseadas em dados não verificados, necessitando de avaliação humana crítica.
+- Considerando a ética em relação ao uso de inteligência artificial, avalie as sugestões abaixo: #card
+    I- A IA é naturalmente imparcial e justa em suas conclusões e previsões.
+    II- A seleção e tratamento de dados pode criar viés nos resultados gerados por modelos de IA.
+    III- O responsável pela criação do modelo de IA é também responsável por sua justiça e imparcialidade.
+    + [ ] Todas as sentenças são falsas.
+    + [ ] Apenas as sentenças I e II são verdadeiras.
+    + [ ] Apenas as sentenças II e III são verdadeiras.
+    + [ ] Todas as sentenças são verdadeiras.
+    - Resposta Correta: Apenas as sentenças II e III são verdadeiras.
+- Qual é a principal diferença entre dados estruturados e dados não estruturados? #card
+    + [ ] Dados não estruturados são gerados exclusivamente por máquinas.
+    + [ ] Dados estruturados são mais rápidos de processar que os não estruturados.
+    + [ ] Dados não estruturados são sempre textuais, enquanto os estruturados são numéricos.
+    + [ ] Dados estruturados referem-se àqueles organizados em formato tabular.
+    - Resposta Correta: Dados estruturados referem-se àqueles organizados em formato tabular.
+- Na aula, foi discutida a importância da veracidade dos dados em Big Data. Como a falta de dados íntegros e confiáveis pode afetar um modelo de inteligência artificial? #card
+    + [ ] Não afeta o modelo, pois a inteligência artificial pode corrigir esses dados.
+    + [ ] Pode melhorar a velocidade de processamento do modelo, sendo benéfico.
+    + [ ] Aumenta a criatividade do modelo ao lidar com dados imprecisos.
+    + [ ] Pode causar erros e previsões imprecisas, prejudicando a tomada de decisão.
+    - Resposta Correta: Pode causar erros e previsões imprecisas, prejudicando a tomada de decisão.
+- Sobre o papel da tecnologia nos negócios, avalie as afirmações abaixo: #card
+    (   ) Tecnologias como Big Data e AI podem reduzir custos operacionais e impulsionar receitas.
+    (   ) A inovação tecnológica deve ser vista como passageira e não leva a benefícios profundos.
+    (   ) Investir em tecnologia é essencial apenas para startups e não para empresas estabelecidas.
+    + [ ] V, V, F.
+    + [ ] F, F, V.
+    + [ ] F, V, V.
+    + [ ] V, F, F.
+    - Resposta Correta: V, F, F.
+- No âmbito do processamento de dados e desenvolvimento de sistemas, o que significa a sigla API? #card
+    + [ ] Application Programming Interface.
+    + [ ] Aplicação de Programas integrados.
+    + [ ] Advanced Programming Instruction.
+    + [ ] Analysis Process Integration.
+    - Resposta Correta: Application Programming Interface.
+- Considerando o desenvolvimento de aplicações com inteligência artificial, avalie as proposições a seguir: #card
+    I- Big Data e IA são conceitos idênticos e intercambiáveis.
+    II- A criação de modelos preditivos é uma aplicação prática da IA.
+    III- APIs podem ser utilizadas para consumo de serviços de IA em nuvem.
+    + [ ] Apenas as sentenças II e III são verdadeiras.
+    + [ ] Todas as sentenças são verdadeiras.
+    + [ ] Apenas as sentenças I e III são verdadeiras.
+    + [ ] Apenas as sentenças I e II são verdadeiras.
+    - Resposta Correta: Apenas as sentenças II e III são verdadeiras.
+```

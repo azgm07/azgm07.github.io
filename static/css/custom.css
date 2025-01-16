@@ -1,0 +1,118 @@
+.asset-container>img {
+  max-height: 300px;
+  width: auto;
+}
+
+iframe[id^='youtube-player'] {
+  aspect-ratio: 16/9;
+  height: auto;
+}
+
+h1.title {
+  color: #ff6188;
+}
+
+.ls-block h1 {
+  color: #78dce8;
+  font-size: 2.0em;
+}
+
+.ls-block h2 {
+  color: #a9dc76;
+  font-size: 1.8em;
+}
+
+.ls-block h3 {
+  color: #fc9867;
+  font-size: 1.6em;
+}
+
+.ls-block h4 {
+  color: #ab9df2;
+  font-size: 1.4em;
+}
+
+.ls-block h5 {
+  color: #ffd866;
+  font-size: 1.2em;
+}
+
+.ls-block h6 {
+  color: #ff6188;
+  font-size: 1.0em;
+}
+
+.katex{
+  font-size: 2em;
+}
+
+/*Embed Block*/
+.embed-block {
+  margin-top: 5px;
+  margin-left: -18px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.blocks-container {
+  margin-left: -23px;
+}
+
+div.color-level.embed-block.bg-base-2 {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+/*Embed Page*/
+.embed-page {
+  margin-top: 5px;
+  margin-left: -18px;
+  padding-top: 10px;
+  padding-left: 13px;
+  border-radius: 5px;
+}
+
+div.block-main-container:has(div.color-level.embed-block.bg-base-2) > div.block-control-wrap.flex.flex-row.items-center > a.bullet-link-wrap {
+  display: none;
+}
+
+div.color-level.embed-page.bg-base-2 {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+.embed-page>.embed-header {
+  margin-left: 20px;
+  font-size: x-large;
+}
+
+div.block-main-container:has(div.color-level.embed-page.bg-base-2) > div.block-control-wrap.flex.flex-row.items-center > a.bullet-link-wrap {
+    display: none;
+}
+
+.embed-page>.embed-header>div.mr-3 {
+  display: none;
+}
+
+/* Cards */
+div[data-refs-self*='"card"'] {
+  --tw-shadow: 0;
+  --tw-shadow-colored: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin-right: 12px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+div[data-refs-self*='"card"']>.block-main-container {
+  margin-left: -10px;
+}
+
+div[data-refs-self*='"card"']>.block-children-container {
+  margin-left: 19px;
+}
+
+div[data-refs-self*='"card"']>.block-main-container>.block-content-wrapper>.references-blocks {
+  display: none;
+}
+
+div[data-refs-self*='"card"']>.block-main-container>.block-content-wrapper>.flex>.flex.flex-row.items-center {
+  display: none;
+}
